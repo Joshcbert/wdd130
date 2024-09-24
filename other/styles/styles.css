@@ -1,0 +1,32 @@
+nav {
+    background-color:steelblue;
+    padding: 10px;
+}
+
+body {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+a {
+    color:white;
+    margin: 40px;
+}
+
+h1 {
+    color:teal;
+}
+
+img {
+    width: 800px;
+    border: 5px solid peachpuff;
+}
+
+p {
+    padding: 10px;
+}
+
+footer {
+    background-color: steelblue;
+    color: white;
+}
