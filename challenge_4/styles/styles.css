@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+    background-color: steelblue;
+    width: 50%;
+}
+
+h1 {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+h1:hover{
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+
+footer p {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    display: block
+}
+
+img {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    display: block;
+    border: 5px;
+}
+
+.white_para {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.quote {
+    margin: 5px auto;
+    text-align: center;
+    font-size: 2em;
+}
+

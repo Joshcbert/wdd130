@@ -1,34 +1,47 @@
-nav {
-    background-color:steelblue;
+nav, footer {
+    background-color:cadetblue;
     padding: 10px;
+    text-align: center;
+    color: whitesmoke;
 }
 
 body {
-    text-align: center;
     background-color: aliceblue;
 }
 
 a {
     color:white;
     margin: 40px;
+    font-size: 1.5em;
+}
+
+a:hover {
+    background-color: gainsboro;
+    color: indigo;
 }
 
 h1 {
     color:teal;
+    text-align: center;
 }
 
 img {
-    width: 800px;
+    width: 80%;
     border: 5px solid peachpuff;
+    display: block;
+    margin: 0 auto;
 }
 
 p {
+    width: 75%;
     padding: 10px;
+    text-align: center;
+    margin: 20px auto;
 }
 
-footer {
-    background-color: steelblue;
-    color: white;
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
 }
 
 .main-para {
@@ -40,3 +53,4 @@ line-height: 1.5em;
     background-color: white;
     color:steelblue;
 }
+
