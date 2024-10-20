@@ -1,18 +1,20 @@
-nav, footer {
+nav {
     background-color:cadetblue;
-    padding: 10px;
+    padding: 25px;
     text-align: center;
     color: whitesmoke;
 }
 
 body {
     background-color: aliceblue;
+    margin: 0;
 }
 
 a {
     color:white;
     margin: 40px;
     font-size: 1.5em;
+    padding: 25px;
 }
 
 a:hover {
@@ -21,13 +23,14 @@ a:hover {
 }
 
 h1 {
+    margin: 50px;
     color:teal;
     text-align: center;
 }
 
 img {
     width: 80%;
-    border: 5px solid peachpuff;
+    border: 5px solid cadetblue;
     display: block;
     margin: 0 auto;
 }
@@ -39,7 +42,13 @@ p {
     margin: 20px auto;
 }
 
+footer {
+    background-color: cadetblue;
+    color: white
+}
+
 footer p {
+    padding: 25pk;
     font-size: 20px;
     margin: 20px auto;
 }

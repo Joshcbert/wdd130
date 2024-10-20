@@ -1,15 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Itim&family=Mukta&family=Special+Elite&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color:   #101723;
+    --secondary-color: #FCF3EB ;
+    --accent1-color: #8ABBD9 ;
+    --accent2-color: #FDBB30;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Special Elite", Monaco, sans-serif;
+    --paragraph-font: Mukta, Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #101723;  /* headlines on a white background */ 
+    --headline-color-on-color: #FCF3EB; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #101723; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #FCF3EB; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #101723;
+    --nav-link-color: #FDBB30;
+    --nav-background-color: #101723;
+    --nav-hover-link-color: #101723;
+    --nav-hover-background-color: #8ABBD9;
+  }
+
 #background {
     height: 725px;
     background-color: #8ABBD9;
+    margin: 35px 0;
 }
 
 body {
     background-color: #FCF3EB;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 .book, .join {
     background-color: #FDBB30;
+    color: #101723;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -18,6 +54,12 @@ body {
 
 .button-box {
     text-align: center;
+    margin: 10px 15px;
+    padding: 15px;
+}
+
+.card-img{
+    border: 10px solid #8ABBD9;
 }
 
 #content {
@@ -29,6 +71,8 @@ body {
 footer {
     background-color: #101723;
     color: #FCF3EB;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -44,8 +88,17 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
 header {
     background-color: #FDBB30;
+    font-family: var(--heading-font);
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -57,29 +110,62 @@ header {
     text-align: center;
 }
 
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+    color: #8ABBD9;
+    font-family: var(--heading-font);
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 .msg {
+    line-height: 1.5em;
     background-color: #101723;
     color: #FCF3EB;
+    padding: 35px;
+    margin-top: 200px;
+}
+
+.msg h2{
+    font-family: var(--heading-font);
+}
+
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 nav a {
     text-align: center;
     text-decoration: none;
     color: #101723;
+    padding: 35px;
 }
 
 nav a:hover {
     background-color: #8ABBD9;
+}
+
+.rivers-cards, .camping-cards, .rapids-cards {
+    margin: 200px 0;
 }
