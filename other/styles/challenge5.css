@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header img {
+    max-height: 500px;
+    display: block;
+}
+
+section{
+    background-color: gray;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.circle {
+    margin:5px 60px;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+    flex: 33.33%;
+    
+    border:15px solid #2e2b2b;
+}
+
+.row {
+    display: flex;
+  }
+
+.page {
+    max-width: 1200px;
+}
