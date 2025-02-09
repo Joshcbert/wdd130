@@ -3,8 +3,8 @@
 
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #A82828   ;
-    --secondary-color: #F7B801 ;
+    --primary-color: #9D2525   ;
+    --secondary-color: #FED148 ;
     --accent1-color: #0C1618;
     --accent2-color: #FFF2F1;
   
@@ -17,11 +17,11 @@
     --headline-color-on-color: #FFF2F1; /* headlines on a colored background */ 
     --paragraph-color-on-white: #0C1618; /* paragraph text on a white background */ 
     --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-    --paragraph-background-color: #A82828  ;
-    --nav-link-color: #F7B801;
-    --nav-background-color: #A82828;
-    --nav-hover-link-color: #A82828;
-    --nav-hover-background-color: #F7B801;
+    --paragraph-background-color: #9D2525  ;
+    --nav-link-color: #FED148;
+    --nav-background-color: #9D2525;
+    --nav-hover-link-color: #9D2525;
+    --nav-hover-background-color: #FED148;
   }
 
   body {
@@ -45,13 +45,13 @@ nav {
 nav a {
     text-align: center;
     text-decoration: none;
-    color: #F7B801;
+    color: #FED148;
     padding: 35px;
 }
 
 nav a:hover {
-    background-color: #F7B801;
-    color: #A82828;
+    background-color: #FED148;
+    color: #9D2525;
 }
 
 .logo {
@@ -71,15 +71,15 @@ nav a:hover {
 }
 
 header {
-    background-color: #A82828;
+    background-color: #9D2525;
     font-family: var(--heading-font);
     display: grid;
     grid-template-columns: 150px auto;
 }
 
 footer {
-    background-color: #A82828;
-    color: #F7B801;
+    background-color: #9D2525;
+    color: #FED148;
     padding: 25px 50px;
     /* margin-top: 200px; */
     display: flex;
@@ -90,7 +90,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #F7B801;
+    color: #FED148;
 }
 
 footer p {
@@ -177,7 +177,7 @@ h2 {
 }
 
 .card-img{
-    border: 5px solid #F7B801;
+    border: 5px solid #FED148;
     border-radius: 5px;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -185,7 +185,7 @@ h2 {
 }
 
 .button{
-    background-color: #F7B801;
+    background-color: #FED148;
     color: #0C1618;
     text-decoration: none;
     font-size: 1.5em;
@@ -195,7 +195,7 @@ h2 {
 }
 
 .button_downtown:hover, .button_around:hover{
-    background-color: #A82828;
+    background-color: #9D2525;
 }
 
 /* Tooltip container */
@@ -214,7 +214,7 @@ h2 {
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
-    border: 3px solid #F7B801;
+    border: 3px solid #FED148;
   
     /* Position the tooltip text */
     position: absolute;
@@ -295,8 +295,8 @@ h2 {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
-    background-color: #F7B801;
-    border: #A82828 solid 3px;
+    background-color: #FED148;
+    border: #9D2525 solid 3px;
 }
 
 .home-grid-downtown{
@@ -312,8 +312,8 @@ h2 {
 
 .around_banner{
     text-align: center;
-    background-color: #A82828;
-    color: #F7B801;
+    background-color: #9D2525;
+    color: #FED148;
     padding: 5px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -339,7 +339,7 @@ h2 {
 .gallery img{
     max-width: 100%;
     height: auto;
-    border: 5px solid #F7B801;
+    border: 5px solid #FED148;
     border-radius: 5px;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
